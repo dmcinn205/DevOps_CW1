@@ -6,7 +6,7 @@ public class Dec2Hex
     public static void main(String args[])
     {
                if (args.length > 0) 
-               if (args[0] == null) throw new ArrayIndexOutOfBoundsException();
+
                
         {
             try 
@@ -16,11 +16,6 @@ public class Dec2Hex
             catch (NumberFormatException e) 
             {
                 System.err.println("Argument" + args[0] + " must be an integer.");
-                System.exit(1);
-            }
-            catch(ArrayIndexOutOfBoundsException e)
-            {
-                System.out.println("No input detected, please enter an integer");
                 System.exit(1);
             }
             
