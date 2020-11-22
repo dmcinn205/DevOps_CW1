@@ -9,8 +9,7 @@ public class Dec2Hex
 
     public static void main(String args[])
     {
-        if (args.length > 0)
-        if (args[0] == null) throw new ArrayIndexOutOfBoundsException();
+        if (args.length > 0) && (args[0] == null) throw new ArrayIndexOutOfBoundsException();
         {
             try 
             {
